@@ -8,6 +8,30 @@
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 .dark-mode {
-  background-color: #1a1919;
+  background-color: #1b1b1b;
   color: #999;
+}
+
+#list-course::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+#list-course:hover::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+#list-course:hover::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+#list-course:hover::-webkit-scrollbar-thumb {
+  background: #b8bcc3;
+  border-radius: 8px;
+}
+
+#list-course:hover::-webkit-scrollbar-track-piece {
+  background-color: #f1f1f1;
+  width: 10px;
 }
